@@ -22,10 +22,13 @@
 	<link href="assets/css/page.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+<header class="pt-4 pb-4 bg-primary position-fixed top-0 start-0 w-100 zi-4 text-center">
+	header
+</header>
 <main class="">
 	<div class="page-energy page-fs-16px">
 		<div class="section-energy pseudo overflow-hidden position-relative">
-			<img src="/public/upload/landingpage/luutrunangluong/banner.jpg" class="w-100 h-100 object-fit-cover"
+			<img src="public/upload/landingpage/luutrunangluong/banner.jpg" class="w-100 h-100 object-fit-cover"
 			     width="1440"
 			     height="820" alt="Giải pháp lưu trữ năng lượng
 VinFast Energy">
@@ -86,7 +89,7 @@ VinFast Energy">
 				</div>
 			</div>
 		</div>
-		<div class="section-gap-120">
+		<div class="section-gap-100">
 			<div class="container">
 				<div class="row row-cols-lg-2 row-cols-1 justify-content-center g-4 align-items-center">
 					<div class="col">
@@ -111,7 +114,7 @@ VinFast Energy">
 				</div>
 			</div>
 		</div>
-		<div class="section-solution section-gap-120 pt-0" id="swiperSolution">
+		<div class="section-solution section-gap-100 pt-0" id="swiperSolution">
 			<div class="container">
 				<div class="row g-4">
 					<div class="col-xl-8 col-lg-7 order-lg-1 order-2">
@@ -274,30 +277,1331 @@ VinFast Energy">
 				</div>
 			</div>
 		</div>
-		<div class="section-gap-120 pt-0">
+		<div class="section-storage section-gap-100 pt-0 position-relative overflow-hidden change-cursor">
+			<div id="cursorZoom"
+			     class="cursor-zoom rounded-circle position-fixed zi-10 d-flex justify-content-center align-items-center justify-content-center">
+				<svg width="41" height="40" viewBox="0 0 41 40" fill="none"
+				     xmlns="http://www.w3.org/2000/svg">
+					<path d="M8.83325 20H32.1666" stroke="#1F2125" stroke-width="1.5"
+					      stroke-linecap="round" stroke-linejoin="round"></path>
+					<path d="M22.1665 10L32.1665 20L22.1665 30" stroke="#1F2125" stroke-width="1.5"
+					      stroke-linecap="round" stroke-linejoin="round"></path>
+				</svg>
+			</div>
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-xl-6">
-						<div class="box-heading text-center">
+						<div class="box-heading text-center mb-5">
 							<div class="heading-subtitle">DẢI SẢN PHẨM</div>
-							<h2 class="box-heading__title-2">Nhóm giải pháp đa dạng đáp ứng mọi nhu cầu của khách hàng</h2>
+							<h2 class="box-heading__title-2">Nhóm giải pháp đa dạng đáp ứng mọi nhu cầu của khách hàng
+							</h2>
 						</div>
 					</div>
 				</div>
-				
 				<div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
-					<div class="card h-100 bg-gray-light position-relative overflow-hidden">
-						<div class="p-3">
-						  <div class="icon"></div>
+					<div class="col">
+						<a href="#NangLuongDanDung"
+						   class="card-storage card h-100 border-0 p-0 bg-gray-light position-relative overflow-hidden rounded-1"
+						   data-bs-toggle="modal">
+							<div class="p-4">
+								<div class="icon d-flex align-items-center justify-content-center bg-white rounded-circle mb-3">
+									<img src="public/upload/landingpage/luutrunangluong/battery-civil.svg"
+									     class="p-3 w-100 h-100 object-fit-contain" width="25" height="26"
+									     alt="Giải pháp lưu trữ năng lượng dân dụng">
+								</div>
+								<div class="box-heading mb-3">
+									<h3 class="box-heading__title-3">Giải pháp lưu trữ năng lượng dân dụng</h3>
+								</div>
+								<span class="text text-uppercase">Xem thêm</span>
+							</div>
+							<div class="image">
+								<img src="public/upload/landingpage/luutrunangluong/battery-civil.png"
+								     class="w-100 h-100 object-fit-contain" width="650" height="528"
+								     alt="Giải pháp lưu trữ năng lượng dân dụng">
+							</div>
+						</a>
+					</div>
+					<div class="col">
+						<a href="#NangLuongLDangTu"
+						   class="card-storage card h-100 border-0 p-0 bg-gray-light position-relative overflow-hidden rounded-1"
+						   data-bs-toggle="modal">
+							<div class="p-4">
+								<div class="icon d-flex align-items-center justify-content-center bg-white rounded-circle mb-3">
+									<img src="public/upload/landingpage/luutrunangluong/battery-cabin.svg"
+									     class="p-3 w-100 h-100 object-fit-contain" width="25" height="26"
+									     alt="Giải pháp lưu trữ năng lượng dạng tủ">
+								</div>
+								<div class="box-heading mb-3">
+									<h3 class="box-heading__title-3">Giải pháp lưu trữ năng lượng dạng tủ</h3>
+								</div>
+								<span class="text text-uppercase">Xem thêm</span>
+							</div>
+							<div class="image">
+								<img src="public/upload/landingpage/luutrunangluong/battery-cabin.png"
+								     class="w-100 h-100 object-fit-contain" width="650" height="528"
+								     alt="Giải pháp lưu trữ năng lượng dạng tủ">
+							</div>
+						</a>
+					</div>
+					<div class="col">
+						<a href="#NangLuong20FT"
+						   class="card-storage card h-100 border-0 p-0 bg-gray-light position-relative overflow-hidden rounded-1"
+						   data-bs-toggle="modal">
+							<div class="p-4">
+								<div class="icon d-flex align-items-center justify-content-center bg-white rounded-circle mb-3">
+									<img src="public/upload/landingpage/luutrunangluong/battery-20ft-container.svg"
+									     class="p-3 w-100 h-100 object-fit-contain" width="25" height="26"
+									     alt="Giải pháp lưu trữ năng lượng 20FT Container">
+								</div>
+								<div class="box-heading mb-3">
+									<h3 class="box-heading__title-3">Giải pháp lưu trữ năng lượng 20FT Container</h3>
+								</div>
+								<span class="text text-uppercase">Xem thêm</span>
+							</div>
+							<div class="image">
+								<img src="public/upload/landingpage/luutrunangluong/battery-20ft-container.png"
+								     class="w-100 h-100 object-fit-contain" width="650" height="528"
+								     alt="Giải pháp lưu trữ năng lượng 20FT Container">
+							</div>
+						</a>
+					</div>
+				
+				</div>
+			</div>
+		</div>
+		<div class="section-html bg-gray-light section-gap-100 position-relative" id="swiperSolution2">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-6">
+						<div class="box-heading text-center mb-5">
+							<div class="heading-subtitle">VINFAST ENERGY</div>
+							<h2 class="box-heading__title-2">Nhà cung cấp giải pháp lưu trữ năng lượng đáng tin cậy
+							</h2>
 						</div>
 					</div>
+				</div>
+				<div class="section-swiper">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide h-auto">
+								<div class="card-html card text-center border-0 bg-transparent h-100 p-0 d-flex flex-column gap-3">
+									<div class="mb-2">
+										<div class="mx-auto mb-3 icon bg-white d-flex align-items-center justify-content-center rounded-circle">
+											<img src="public/upload/landingpage/luutrunangluong/solution-need.svg"
+											     class="w-100 h-100 object-fit-contain p-4" width="61" height="60"
+											     alt="Icon">
+										</div>
+										<div class="box-heading mb-0">
+											<h3 class="box-heading__title-3 mb-0">
+												Giải pháp phù hợp với nhu cầu
+											</h3>
+										</div>
+									</div>
+									<div class="text">
+										<p>VinFast Energy cung cấp giải pháp lưu trữ năng lượng được thiết kế riêng và
+											tinh chỉnh theo nhu cầu của khách hàng.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide h-auto">
+								<div class="card-html card text-center border-0 bg-transparent h-100 p-0 d-flex flex-column gap-3">
+									<div class="mb-2">
+										<div class="mx-auto mb-3 icon bg-white d-flex align-items-center justify-content-center rounded-circle">
+											<img src="public/upload/landingpage/luutrunangluong/solution-guarantee.svg"
+											     class="w-100 h-100 object-fit-contain p-4" width="61" height="60"
+											     alt="Icon">
+										</div>
+										<div class="box-heading mb-0">
+											<h3 class="box-heading__title-3 mb-0">
+												Chế độ bảo hành toàn diện
+											</h3>
+										</div>
+									</div>
+									<div class="text">
+										<p>Giải pháp của VinFast Energy đi cùng gói bảo hành toàn diện với đội ngũ kỹ
+											thuật ngay tại Việt Nam và dịch vụ chăm sóc khách hàng chất lượng.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide h-auto">
+								<div class="card-html card text-center border-0 bg-transparent h-100 p-0 d-flex flex-column gap-3">
+									<div class="mb-2">
+										<div class="mx-auto mb-3 icon bg-white d-flex align-items-center justify-content-center rounded-circle">
+											<img src="public/upload/landingpage/luutrunangluong/solution-compatible.svg"
+											     class="w-100 h-100 object-fit-contain p-4" width="61" height="60"
+											     alt="Icon">
+										</div>
+										<div class="box-heading mb-0">
+											<h3 class="box-heading__title-3 mb-0">
+												Tương thích cao và đa ứng dụng
+											</h3>
+										</div>
+									</div>
+									<div class="text">
+										<p>Giải pháp của VinFast Energy có khả năng đáp ứng đa dạng các nhu cầu của
+											khách hàng, từ quy mô dân dụng đến quy mô lưới điện và có thể tích hợp với
+											nhiều loại biến tần (PCS).
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide h-auto">
+								<div class="card-html card text-center border-0 bg-transparent h-100 p-0 d-flex flex-column gap-3">
+									<div class="mb-2">
+										<div class="mx-auto mb-3 icon bg-white d-flex align-items-center justify-content-center rounded-circle">
+											<img src="public/upload/landingpage/luutrunangluong/solution-design.svg"
+											     class="w-100 h-100 object-fit-contain p-4" width="61" height="60"
+											     alt="Icon">
+										</div>
+										<div class="box-heading mb-0">
+											<h3 class="box-heading__title-3 mb-0">
+												Thiết kế linh hoạt dễ mở rộng
+											</h3>
+										</div>
+									</div>
+									<div class="text">
+										<p>Giải pháp của VinFast Energy được thiết kế giúp công tác tích hợp và triển
+											khai có thể diễn ra nhanh chóng và có thể dễ dàng mở rộng quy mô hệ thống
+											một cách đơn giản.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide h-auto">
+								<div class="card-html card text-center border-0 bg-transparent h-100 p-0 d-flex flex-column gap-3">
+									<div class="mb-2">
+										<div class="mx-auto mb-3 icon bg-white d-flex align-items-center justify-content-center rounded-circle">
+											<img src="public/upload/landingpage/luutrunangluong/solution-cost.svg"
+											     class="w-100 h-100 object-fit-contain p-4" width="61" height="60"
+											     alt="Icon">
+										</div>
+										<div class="box-heading mb-0">
+											<h3 class="box-heading__title-3 mb-0">
+												Chi phí cạnh tranh
+											</h3>
+										</div>
+									</div>
+									<div class="text">
+										<p>Giải pháp của VinFast Energy cam kết mang lại giá trị dài hạn cho khách hàng,
+											giúp tối ưu hiệu quả đầu tư dự án.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section-video section-gap-100">
+			<div class="container">
+				<div class="box-heading mb-5">
+					<div class="heading-subtitle">NHÀ MÁY & DÂY CHUYỀN</div>
+					<h2 class="box-heading__title-2 text-uppercase">Khám phá nhà máy sản xuất
+					</h2>
+				</div>
+				<div id="playVideo" class="position-relative overflow-hidden ratio ratio-16x9">
+					<video width="320" height="200" class="w-100 h-100 object-fit-cover">
+						<source src="public/upload/landingpage/luutrunangluong/VFE_NotVF.mp4" type="video/mp4">
+					</video>
+					<div id="imageVideo"
+					     class="video-wrap transition-default position-absolute top-0 start-0 w-100 h-100 zi-1">
+						<img src="public/upload/landingpage/luutrunangluong/video.webp"
+						     class="w-100 h-100 object-fit-cover" width="2040"
+						     height="1020" alt="Nhà máy 7 dây chuyền">
+						<div class="icon-play position-absolute top-50 translate-middle start-50 zi-2">
+							<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96"
+							     fill="none">
+								<rect width="96" height="96" rx="48" fill="white" fill-opacity="0.2"/>
+								<rect x="12" y="12" width="72" height="72" rx="36" fill="white"/>
+								<path d="M43.8173 34.5694C42.4924 33.7177 40.75 34.669 40.75 36.244V59.756C40.75 61.331 42.4924 62.2823 43.8173 61.4306L62.1044 49.6746C63.3234 48.891 63.3234 47.109 62.1044 46.3254L43.8173 34.5694Z"
+								      fill="black"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section-form bg-gray-light section-gap-100">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-6 col-lg-9">
+						<div class="box-heading text-center">
+							<h2 class="box-heading__title-2">Khám phá Giải pháp của Chúng tôi
+							</h2>
+							<p>Điền thông tin của bạn bên dưới.</p>
+						</div>
+						<form id="frmEnergy" class="needs-validation" novalidate>
+							<div class="row row-cols-lg-2 row-cols-1 g-3 mb-3">
+								<div class="col">
+									<div class="form-group">
+										<input type="text" placeholder="Họ và Tên" name="en-ten" class="form-control"
+										       required>
+										<div class="invalid-feedback">
+											Quý khách vui lòng không để trống thông tin trên.
+										</div>
+									</div>
+								</div>
+								<div class="col">
+									<div class="form-group">
+										<input type="text" placeholder="Công ty" name="en-cty" class="form-control"
+										       required>
+										<div class="invalid-feedback">
+											Quý khách vui lòng không để trống thông tin trên.
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row row-cols-lg-2 row-cols-1 g-3 mb-3">
+								<div class="col">
+									<div class="form-group">
+										<input type="text" placeholder="Ngành" name="en-nganh" class="form-control"
+										       required>
+										<div class="invalid-feedback">
+											Quý khách vui lòng không để trống thông tin trên.
+										</div>
+									</div>
+								</div>
+								<div class="col">
+									<div class="form-group">
+										<input type="text" placeholder="Chức danh" name="en-chucdanh"
+										       class="form-control" required>
+										<div class="invalid-feedback">
+											Quý khách vui lòng không để trống thông tin trên.
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row row-cols-lg-2 row-cols-1 g-3 mb-3">
+								<div class="col">
+									<div class="form-group">
+										<input type="email" placeholder="Email" name="en-email" class="form-control"
+										       required>
+										<div class="invalid-feedback">
+											Quý khách vui lòng không để trống thông tin trên.
+										</div>
+									</div>
+								</div>
+								<div class="col">
+									<div class="form-group">
+										<input type="tel" placeholder="Số điện thoại liên hệ" name="en-sdt"
+										       class="form-control" required>
+										<div class="invalid-feedback">
+											Quý khách vui lòng không để trống thông tin trên.
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row row-cols-1 mb-3">
+								<div class="col">
+									<div class="form-group">
+										<textarea class="form-control" rows="5"
+										          placeholder="Thông tin yêu cầu (Nếu có)"></textarea>
+									</div>
+								</div>
+							</div>
+							<button type="submit" class="custom-button w-100" aria-label="Tải ngay">
+								TẢI NGAY TÀI LIỆU MIỄN PHÍ
+							</button>
+						
+						</form>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+		<div class="modal fade modal-energy" id="NangLuongDanDung" tabindex="-1" aria-labelledby="NangLuongDanDung"
+		     aria-hidden="true">
+			<div class="modal-dialog modal-xl modal-dialog-centered">
+				<div class="modal-content rounded-2 p-md-4 p-3 pb-2 position-relative">
+					<div class="row g-4">
+						<div class="col-xl-5">
+							<div class="modal-energy_head pt-5 pb-4 mb-4 d-xl-none d-block text-center">
+								<div class="box-heading">
+									<h3 class="box-heading__title-3">
+										Giải pháp lưu trữ năng lượng dân dụng
+									</h3>
+								</div>
+								<a href="public/upload/landingpage/luutrunangluong/vinfast-energy-box-solution-technical-specification.pdf"
+								   target="_blank" class="custom-button custom-button__white text-uppercase"
+								   aria-label="Tải thông số chi tiết">
+									Tải thông số chi tiết
+								</a>
+							</div>
+							<div class="section-swiper position-relative">
+								<div class="swiper mySwiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide h-auto">
+											<div class="card-image h-100 border-0">
+												<img src="public/upload/landingpage/luutrunangluong/product-civil.png"
+												     class="w-100 h-100 object-fit-contain" width="1140" height="1576"
+												     alt="">
+											</div>
+										</div>
+										<div class="swiper-slide h-auto">
+											<div class="card-image h-100 border-0">
+												<img src="public/upload/landingpage/luutrunangluong/product-civil-02.png"
+												     class="w-100 h-100 object-fit-contain" width="1140" height="1576"
+												     alt="">
+											</div>
+										</div>
+										<div class="swiper-slide h-auto">
+											<div class="card-image h-100 border-0">
+												<img src="public/upload/landingpage/luutrunangluong/product-civil-03.png"
+												     class="w-100 h-100 object-fit-contain" width="1140" height="1576"
+												     alt="">
+											</div>
+										</div>
+									
+									</div>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+						<div class="col-xl-7">
+							<div class="modal-energy_head pt-4 pb-4 mb-4 d-xl-block d-none">
+								<div class="box-heading">
+									<h3 class="box-heading__title-3">
+										Giải pháp lưu trữ năng lượng dân dụng
+									</h3>
+								</div>
+								<a href="public/upload/landingpage/luutrunangluong/vinfast-energy-box-solution-technical-specification.pdf"
+								   target="_blank" class="custom-button custom-button__white text-uppercase"
+								   aria-label="Tải thông số chi tiết">
+									Tải thông số chi tiết
+								</a>
+							</div>
+							<div class="modal-energy_tab">
+								<ul class="nav nav-pills mb-4 d-flex align-content-center justify-content-between flex-nowrap"
+								    id="pills-tab" role="tablist">
+									<li class="nav-item" role="presentation">
+										<button class="nav-link active" id="pillsThongso" data-bs-toggle="pill"
+										        data-bs-target="#pills-thongso" type="button" role="tab"
+										        aria-controls="pills-thongso" aria-selected="true">
+											Thông số DC
+										</button>
+									</li>
+									<li class="nav-item" role="presentation">
+										<button class="nav-link" id="pillsMorong" data-bs-toggle="pill"
+										        data-bs-target="#pills-morong" type="button" role="tab"
+										        aria-controls="pills-morong" aria-selected="false">
+											Hệ thống mở rộng
+										</button>
+									</li>
+									<li class="nav-item" role="presentation">
+										<button class="nav-link" id="pillsTschung" data-bs-toggle="pill"
+										        data-bs-target="#pills-tschung" type="button" role="tab"
+										        aria-controls="pills-tschung" aria-selected="false">
+											Thông số chung
+										</button>
+									</li>
+								</ul>
+								<div class="tab-content" id="pills-tabContent">
+									<div class="tab-pane fade show active" id="pills-thongso" role="tabpanel"
+									     aria-labelledby="pills-Thongso">
+										<div class="item-box__wrap d-flex flex-wrap gap-4">
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Cell pin
+												</div>
+												<div class="text">
+													LFP 3.2V / 52Ah
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Cấu hình hệ thống
+												</div>
+												<div class="text">
+													16S2P
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Điện áp điện mức
+												</div>
+												<div class="text">
+													51.2V
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Dải điện áp hoạt động
+												</div>
+												<div class="text">
+													48V - 54.4V
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Tốc độ sạc/xả
+												</div>
+												<div class="text">
+													≤ 0.5C
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Khả năng mở rộng công suất
+												</div>
+												<div class="text">
+													Tối đa 5 stack
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Chu kỳ
+												</div>
+												<div class="text">
+													> 4000 chu kỳ (≥ 70% SOH @25°C)
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="pills-morong" role="tabpanel"
+									     aria-labelledby="pillsMorong">
+										<table class="table table-number">
+											<tbody>
+											<tr>
+												<td class="highlight active">Số lượng stack</td>
+												<td class="highlight active">1</td>
+												<td class="highlight active">2</td>
+												<td class="highlight active">3</td>
+												<td class="highlight active">4</td>
+												<td class="highlight active">5</td>
+											</tr>
+											<tr>
+												<td class="highlight active">Công suất định mức [kWh]</td>
+												<td class="highlight active">5.3</td>
+												<td class="highlight active">10.6</td>
+												<td class="highlight active">15.9</td>
+												<td class="highlight active">21.2</td>
+												<td class="highlight active">26.5</td>
+											</tr>
+											<tr>
+												<td>Công suất khả dụng [kWh] <br> (tại 90% Độ sâu sạc/xả)</td>
+												<td>4.8</td>
+												<td>9.6</td>
+												<td>14.4</td>
+												<td>19.2</td>
+												<td>22</td>
+											</tr>
+											<tr>
+												<td>Công suất đầu ra [kW]</td>
+												<td>1.44</td>
+												<td>2.88</td>
+												<td>4.32</td>
+												<td>5.76</td>
+												<td>7.2</td>
+											</tr>
+											<tr>
+												<td>Dòng điện đầu ra [A]</td>
+												<td>31.2</td>
+												<td>62.4</td>
+												<td>93.6</td>
+												<td>124.8</td>
+												<td>156</td>
+											</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="tab-pane fade" id="pills-tschung" role="tabpanel"
+									     aria-labelledby="pillsTschung">
+										<div class="item-box__wrap d-flex flex-wrap gap-4">
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Nhiệt độ hoạt động
+												</div>
+												<div class="text">
+													-20°C tới 55°C
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Độ ẩm cho phép
+												</div>
+												<div class="text">
+													0 - 95%
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Độ cao hoạt động
+												</div>
+												<div class="text">
+													≤ 4000m
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Công nghệ làm mát
+												</div>
+												<div class="text">
+													Làm mát thụ động
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Cấp độ bảo vệ
+												</div>
+												<div class="text">
+													IP 55
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Giao diện truyền thông
+												</div>
+												<div class="text">
+													CAN / RS485
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Phương thức truyền thông
+												</div>
+												<div class="text">
+													CAN 2.0B / Modbus RTU
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Kích thước [mỗi Stack]
+												</div>
+												<div class="text">
+													625 x 400 x 203 (mm)
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Chứng chỉ (Hiện tại & Dự kiến)
+												</div>
+												<div class="text">
+													UL 1973, UL 60730-1, UL 9540, UL 9540A, IEC 63056, IEC 62619, UN38.3
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Trọng lượng [mỗi Stack]
+												</div>
+												<div class="text">
+													~52 kg
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="button"
+					        class="modal-close d-flex  align-items-center justify-content-center rounded-circle position-absolute top-50 translate-middle-y bg-white p-0"
+					        data-bs-dismiss="modal">
+						<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+							      d="M10.9836 23.6822L23.7116 10.9542L23.0752 10.3178L10.3472 23.0458L10.9836 23.6822Z"
+							      fill="#1F2125"/>
+							<path fill-rule="evenodd" clip-rule="evenodd"
+							      d="M10.3472 10.9542L23.0752 23.6822L23.7116 23.0458L10.9836 10.3178L10.3472 10.9542Z"
+							      fill="#1F2125"/>
+							<path fill-rule="evenodd" clip-rule="evenodd"
+							      d="M10.9836 23.6822L23.7116 10.9542L23.0752 10.3178L10.3472 23.0458L10.9836 23.6822Z"
+							      stroke="#1F2125" stroke-linejoin="round"/>
+							<path fill-rule="evenodd" clip-rule="evenodd"
+							      d="M10.3472 10.9542L23.0752 23.6822L23.7116 23.0458L10.9836 10.3178L10.3472 10.9542Z"
+							      stroke="#1F2125" stroke-linejoin="round"/>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade modal-energy" id="NangLuongLDangTu" tabindex="-1" aria-labelledby="NangLuongLDangTu"
+		     aria-hidden="true">
+			<div class="modal-dialog modal-xl modal-dialog-centered">
+				<div class="modal-content rounded-2 p-md-4 p-3 pb-2 position-relative">
+					<div class="row g-4">
+						<div class="col-xl-5">
+							<div class="modal-energy_head pt-5 pb-4 mb-4 d-xl-none d-block text-center">
+								<div class="box-heading">
+									<h3 class="box-heading__title-3">
+										Giải pháp lưu trữ năng lượng dạng tủ
+									</h3>
+								</div>
+								<a href="public/upload/landingpage/luutrunangluong/vinfast-energy-box-solution-technical-specification.pdf"
+								   target="_blank" class="custom-button custom-button__white text-uppercase"
+								   aria-label="Tải thông số chi tiết">
+									Tải thông số chi tiết
+								</a>
+							</div>
+							<div class="modal-energy_tab">
+								<ul class="nav nav-pills mb-4 d-flex align-content-center justify-content-between flex-nowrap"
+								    id="pills-tu" role="tablist">
+									<li class="nav-item w-50" role="presentation">
+										<button class="nav-link active" id="tuNgoaiTroi1" data-bs-toggle="pill"
+										        data-bs-target="#tuNgoaiTroi" type="button" role="tab"
+										        aria-controls="tuNgoaiTroi" aria-selected="true">
+											Tủ ngoài trời
+										</button>
+									</li>
+									<li class="nav-item w-50" role="presentation">
+										<button class="nav-link" id="tuTrongNha1" data-bs-toggle="pill"
+										        data-bs-target="#tuTrongNha" type="button" role="tab"
+										        aria-controls="tuTrongNha1" aria-selected="false">
+											Tủ trong nhà
+										</button>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="tuNgoaiTroi" role="tabpanel"
+									     aria-labelledby="tuNgoaiTroi">
+										<div class="d-block">
+											<img src="public/upload/landingpage/luutrunangluong/Outdoor_render%20240510.png"
+											     class="w-100 h-100 object-fit-contain" width="4592" height="5785"
+											     alt="Tủ ngoài trời">
+										</div>
+									</div>
+									<div class="tab-pane fade" id="tuTrongNha" role="tabpanel"
+									     aria-labelledby="tuTrongNha1">
+										<div class="d-block">
+											<img src="public/upload/landingpage/luutrunangluong/product-cabin-02.webp"
+											     class="w-100 h-100 object-fit-contain" width="570" height="788"
+											     alt="Tủ trong nhà">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-7">
+							<div class="modal-energy_head pt-4 pb-4 mb-4 d-xl-block d-none">
+								<div class="box-heading">
+									<h3 class="box-heading__title-3">
+										Giải pháp lưu trữ năng lượng dạng tủ
+									</h3>
+								</div>
+								<a href="public/upload/landingpage/luutrunangluong/vinfast-energy_tower-specification-20250520.pdf"
+								   target="_blank" class="custom-button custom-button__white text-uppercase"
+								   aria-label="Tải thông số chi tiết">
+									Tải thông số chi tiết
+								</a>
+							</div>
+							<div class="modal-energy_tab">
+								<ul class="nav nav-pills mb-4 d-flex align-content-center justify-content-between flex-nowrap"
+								    id="pills-tab1" role="tablist">
+									<li class="nav-item" role="presentation">
+										<button class="nav-link active" id="pillsThongso1" data-bs-toggle="pill"
+										        data-bs-target="#pills-thongso1" type="button" role="tab"
+										        aria-controls="pills-thongso1" aria-selected="true">
+											Thông số DC
+										</button>
+									</li>
+									<li class="nav-item" role="presentation">
+										<button class="nav-link" id="pillsMorong1" data-bs-toggle="pill"
+										        data-bs-target="#pills-morong1" type="button" role="tab"
+										        aria-controls="pills-morong1" aria-selected="false">
+											Thông số AC
+										</button>
+									</li>
+									<li class="nav-item" role="presentation">
+										<button class="nav-link" id="pillsTschung1" data-bs-toggle="pill"
+										        data-bs-target="#pills-tschung1" type="button" role="tab"
+										        aria-controls="pills-tschung1" aria-selected="false">
+											Thông số chung
+										</button>
+									</li>
+								</ul>
+								<div class="tab-content" id="pills-tabContent1">
+									<div class="tab-pane fade show active" id="pills-thongso1" role="tabpanel"
+									     aria-labelledby="pills-Thongso1">
+										<div class="item-box__wrap d-flex flex-wrap gap-4">
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Cell pin
+												</div>
+												<div class="text">
+													LFP 3.2V/300Ah
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Cấu hình Mô-đun
+												</div>
+												<div class="text">
+													8S1P
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Cấu hình Rack
+												</div>
+												<div class="text">
+													144S1P
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Cấu hình Hệ thống
+												</div>
+												<div class="text">
+													18 Mô-đun
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Công suất định mức (tại Đầu vòng đời)
+												</div>
+												<div class="text">
+													138.3kWh
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Tốc độ sạc/xả
+												</div>
+												<div class="text">
+													≤ 0.5C
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Điện áp định mức
+												</div>
+												<div class="text">
+													460V
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Dải điện áp hoạt động
+												</div>
+												<div class="text">
+													360V - 525V
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="text">
+													Công suất DC khả dụng (tại 90% Độ sâu sạc/xả)
+													124.4kWh
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Chu kỳ
+												</div>
+												<div class="text">
+													> 8000 chu kỳ @25±2°C, 0.5P/0.5P 90% DOD, 70% EOL
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="pills-morong1" role="tabpanel"
+									     aria-labelledby="pillsMorong">
+										<div class="item-box__wrap d-flex flex-wrap gap-4">
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Điện áp
+												</div>
+												<div class="text">
+													320V - 530V
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Tần số
+												</div>
+												<div class="text">
+													50Hz / 60Hz
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Công suất
+												</div>
+												<div class="text">
+													66 kW
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Hiệu suất
+												</div>
+												<div class="text">
+													≥ 96.5%
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													THDi
+												</div>
+												<div class="text">
+													< 5%
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="pills-tschung1" role="tabpanel"
+									     aria-labelledby="pillsTschung">
+										<div class="item-box__wrap d-flex flex-wrap gap-4">
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Hỗ trợ Off-Grid
+												</div>
+												<div class="text">
+													CÓ HỖ TRỢ
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Nhiệt độ hoạt động
+												</div>
+												<div class="text">
+													-20°C tới 55°C
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Độ ẩm cho phép
+												</div>
+												<div class="text">
+													0 - 95%
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Độ cao yêu cầu
+												</div>
+												<div class="text">
+													< 2000m
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Công nghệ làm mát
+												</div>
+												<div class="text">
+													Làm mát bằng quạt
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Tiếng ồn
+												</div>
+												<div class="text">
+													≤ 75db
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Hệ thống PCCC
+												</div>
+												<div class="text">
+													Fire Suppression Gas
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Cấp độ bảo vệ
+												</div>
+												<div class="text">
+													IP 55
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Giao diện truyền thông
+												</div>
+												<div class="text">
+													Ethernet
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Phương thức truyền thông
+												</div>
+												<div class="text">
+													Modbus TCP/MQTT
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Chứng chỉ (Hiện tại và Dự kiến)
+												</div>
+												<div class="text">
+													UL 1973, UL 60730-1, UL 9540, UL 9540A, IEC 62619, IEC 62933-5-2,
+													IEC 63056, UN38.3
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="button"
+					        class="modal-close d-flex  align-items-center justify-content-center rounded-circle position-absolute top-50 translate-middle-y bg-white p-0"
+					        data-bs-dismiss="modal">
+						<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+							      d="M10.9836 23.6822L23.7116 10.9542L23.0752 10.3178L10.3472 23.0458L10.9836 23.6822Z"
+							      fill="#1F2125"/>
+							<path fill-rule="evenodd" clip-rule="evenodd"
+							      d="M10.3472 10.9542L23.0752 23.6822L23.7116 23.0458L10.9836 10.3178L10.3472 10.9542Z"
+							      fill="#1F2125"/>
+							<path fill-rule="evenodd" clip-rule="evenodd"
+							      d="M10.9836 23.6822L23.7116 10.9542L23.0752 10.3178L10.3472 23.0458L10.9836 23.6822Z"
+							      stroke="#1F2125" stroke-linejoin="round"/>
+							<path fill-rule="evenodd" clip-rule="evenodd"
+							      d="M10.3472 10.9542L23.0752 23.6822L23.7116 23.0458L10.9836 10.3178L10.3472 10.9542Z"
+							      stroke="#1F2125" stroke-linejoin="round"/>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade modal-energy" id="NangLuong20FT" tabindex="-1" aria-labelledby="NangLuong20FT"
+		     aria-hidden="true">
+			<div class="modal-dialog modal-xl modal-dialog-centered">
+				<div class="modal-content rounded-2 p-md-4 p-3 pb-2 position-relative">
+					<div class="row g-4">
+						<div class="col-xl-5">
+							<div class="modal-energy_head pt-5 pb-4 mb-4 d-xl-none d-block text-center">
+								<div class="box-heading">
+									<h3 class="box-heading__title-3">
+										Giải pháp lưu trữ năng lượng 20FT Container
+									</h3>
+								</div>
+								<a href="public/upload/landingpage/luutrunangluong/vinfast-energy-20ft-containerized-solution-data-sheet.pdf"
+								   target="_blank" class="custom-button custom-button__white text-uppercase"
+								   aria-label="Tải thông số chi tiết">
+									Tải thông số chi tiết
+								</a>
+							</div>
+							<div class="section-swiper position-relative">
+								<div class="swiper mySwiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide h-auto">
+											<div class="card-image h-100 border-0">
+												<img src="public/upload/landingpage/luutrunangluong/product-20ft-container.webp"
+												     class="w-100 h-100 object-fit-contain" width="1140" height="1576"
+												     alt="">
+											</div>
+										</div>
+										<div class="swiper-slide h-auto">
+											<div class="card-image h-100 border-0">
+												<img src="public/upload/landingpage/luutrunangluong/product-20ft-container-02.webp"
+												     class="w-100 h-100 object-fit-contain" width="1140" height="1576"
+												     alt="">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+						<div class="col-xl-7">
+							<div class="modal-energy_head pt-4 pb-4 mb-4 d-xl-block d-none">
+								<div class="box-heading">
+									<h3 class="box-heading__title-3">
+										Giải pháp lưu trữ năng lượng 20FT Container
+									</h3>
+								</div>
+								<a href="public/upload/landingpage/luutrunangluong/vinfast-energy-20ft-containerized-solution-data-sheet.pdf"
+								   target="_blank" class="custom-button custom-button__white text-uppercase"
+								   aria-label="Tải thông số chi tiết">
+									Tải thông số chi tiết
+								</a>
+							</div>
+							<div class="modal-energy_tab">
+								<ul class="nav nav-pills mb-4 d-flex align-content-center justify-content-between flex-nowrap"
+								    role="tablist">
+									<li class="nav-item w-50" role="presentation">
+										<button class="nav-link active " id="pillsThongso2" data-bs-toggle="pill"
+										        data-bs-target="#pills-thongso2" type="button" role="tab"
+										        aria-controls="pills-thongso2" aria-selected="true">
+											Thông số DC
+										</button>
+									</li>
+									<li class="nav-item w-50" role="presentation">
+										<button class="nav-link" id="pillsTschung2" data-bs-toggle="pill"
+										        data-bs-target="#pills-tschung2" type="button" role="tab"
+										        aria-controls="pills-tschung2" aria-selected="false">
+											Thông số chung
+										</button>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="pills-thongso2" role="tabpanel"
+									     aria-labelledby="pills-Thongso2">
+										<div class="item-box__wrap d-flex flex-wrap gap-4">
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Cell pin
+												</div>
+												<div class="text">
+													LFP 3.2V / 300Ah
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Cấu hình Mô-đun
+												</div>
+												<div class="text">
+													24S1P
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Cấu hình Rack
+												</div>
+												<div class="text">
+													384S1P
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Cấu hình Hệ thống
+												</div>
+												<div class="text">
+													10 Rack
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Công suất định mức (tại Đầu vòng đời)
+												</div>
+												<div class="text">
+													3,686kWh
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Tốc độ sạc/xả
+												</div>
+												<div class="text">
+													≤ 0.5C
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Điện áp định mức
+												</div>
+												<div class="text">
+													1,229V
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Dải điện áp hoạt động
+												</div>
+												<div class="text">
+													960V - 1,402V
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Công suất DC khả dụng (tại 90% Độ sâu sạc/xả)
+												</div>
+												<div class="text">
+													3,318kWh
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Chu kỳ
+												</div>
+												<div class="text">
+													> 8000 chu kỳ @25±2°C, 0.5P/0.5P 90% DOD, 70% EOL
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="pills-tschung2" role="tabpanel"
+									     aria-labelledby="pillsTschung2">
+										<div class="item-box__wrap d-flex flex-wrap gap-4">
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Kích thước
+												</div>
+												<div class="text">
+													6058 x 2462 x 2896 (20ft)
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Nhiệt độ hoạt động
+												</div>
+												<div class="text">
+													-20°C tới 55°C
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Trọng lượng
+												</div>
+												<div class="text">
+													~ 33T
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Độ ẩm cho phép
+												</div>
+												<div class="text">
+													≥0 - 95%
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Độ cao yêu cầu
+												</div>
+												<div class="text">
+													< 4000m
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Cấp độ bảo vệ
+												</div>
+												<div class="text">
+													IP 55
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Công nghệ làm mát
+												</div>
+												<div class="text">
+													Làm mát chủ động bằng dung dịch
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Giao diện truyền thông
+												</div>
+												<div class="text">
+													Ethernet
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Hệ thống PCCC
+												</div>
+												<div class="text">
+													Potassium aerosol
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Giao thức truyền thông
+												</div>
+												<div class="text">
+													CAN; Modbus TCP/IP; Modbus RTU
+												</div>
+											</div>
+											<div class="item-box">
+												<div class="line d-block"></div>
+												<div class="title fw-600 mb-1">
+													Chứng chỉ (Hiện tại & Dự kiến)
+												</div>
+												<div class="text">
+													UL 1973, UL 60730-1, UL 9540, UL 9540A, IEC 63056, IEC 62619, UN38.3
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="button"
+					        class="modal-close d-flex  align-items-center justify-content-center rounded-circle position-absolute top-50 translate-middle-y bg-white p-0"
+					        data-bs-dismiss="modal">
+						<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+							      d="M10.9836 23.6822L23.7116 10.9542L23.0752 10.3178L10.3472 23.0458L10.9836 23.6822Z"
+							      fill="#1F2125"/>
+							<path fill-rule="evenodd" clip-rule="evenodd"
+							      d="M10.3472 10.9542L23.0752 23.6822L23.7116 23.0458L10.9836 10.3178L10.3472 10.9542Z"
+							      fill="#1F2125"/>
+							<path fill-rule="evenodd" clip-rule="evenodd"
+							      d="M10.9836 23.6822L23.7116 10.9542L23.0752 10.3178L10.3472 23.0458L10.9836 23.6822Z"
+							      stroke="#1F2125" stroke-linejoin="round"/>
+							<path fill-rule="evenodd" clip-rule="evenodd"
+							      d="M10.3472 10.9542L23.0752 23.6822L23.7116 23.0458L10.9836 10.3178L10.3472 10.9542Z"
+							      stroke="#1F2125" stroke-linejoin="round"/>
+						</svg>
+					</button>
 				</div>
 			</div>
 		</div>
 	</div>
 </main>
 <script>
-	if ($('#swiperSolution .swiper').length > 0) {
+	if ($('#swiperSolution .swiper').length) {
 		new Swiper("#swiperSolution .swiper", {
 			slidesPerView: 1,
 			spaceBetween: 20,
@@ -320,11 +1624,99 @@ VinFast Energy">
 				},
 			},
 			navigation: {
-				nextEl: ".next-swiper",
-				prevEl: ".prev-swiper",
+				nextEl: "#swiperSolution .next-swiper",
+				prevEl: "#swiperSolution .prev-swiper",
 			},
 		});
+	}
+	
+	if ($('.modal-energy').length) {
+		$('.modal-energy').each(function () {
+			const elm_id = '#' + $(this).attr('id')
+			new Swiper(elm_id + ' .swiper', {
+				pagination: {
+					el: elm_id + " .swiper-pagination",
+					clickable: true,
+				},
+				slidesPerView: 1,
+				loop: false,
+				speed: 1000,
+				autoplay: {
+					delay: 6000,
+					disableOnInteraction: true,
+				},
+				spaceBetween: 5,
+				
+			});
+			
+		});
+	}
+	
+	if ($('#swiperSolution2 .swiper').length) {
+		new Swiper("#swiperSolution2 .swiper", {
+			slidesPerView: 1,
+			spaceBetween: 25,
+			speed: 1000,
+			loop: false,
+			breakpoints: {
+				320: {
+					slidesPerView: 1.5,
+				},
+				768: {
+					slidesPerView: 2.5,
+				},
+				1024: {
+					slidesPerView: 3.5,
+					
+				},
+				1300: {
+					slidesPerView: 5,
+					spaceBetween: 30,
+				},
+			},
+			
+		});
+	}
+	
+	if ($('#playVideo').length && $('#playVideo video').length) {
+		let videoCar = $('#playVideo video').get(0);
+		let videoImage = $('#imageVideo');
 		
+		$('#playVideo').click(function () {
+			if (videoCar.paused) {
+				videoCar.play();
+				videoImage.hide()
+			} else {
+				videoCar.pause();
+				videoImage.show()
+			}
+		})
+		$(videoCar).on("ended", function () {
+			videoImage.show();
+		});
+	}
+	
+	if ($('#cursorZoom').length) {
+		const cursorZoom = document.getElementById("cursorZoom");
+		const sectionZoomCursor = document.querySelector(".change-cursor");
+		const header = document.querySelector('header')
+		
+		document.addEventListener("mousemove", (e) => {
+			cursorZoom.style.left = e.clientX + "px";
+			cursorZoom.style.top = e.clientY + "px";
+		});
+		
+		window.addEventListener("scroll", () => {
+			const rectChange = sectionZoomCursor.getBoundingClientRect();
+			console.log(rectChange.bottom)
+			if (rectChange.top < header.offsetHeight && rectChange.bottom > header.offsetHeight) {
+				sectionZoomCursor.classList.add("active");
+				cursorZoom.style.opacity = "1";
+			} else {
+				sectionZoomCursor.classList.remove("active");
+				cursorZoom.style.opacity = "0";
+			}
+		});
 	}
 
 </script>
