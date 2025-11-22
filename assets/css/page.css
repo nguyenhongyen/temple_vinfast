@@ -102,6 +102,10 @@
     .box-heading .box-heading__title-3 {
         font-size: 1.5em;
     }
+    .custom-button {
+        padding: 12px 22px;
+        font-size: 13px;
+    }
 }
 
 /*=============================================
@@ -415,6 +419,12 @@
 @media (min-width: 1200px) {
     .page-battery .container {
         max-width: 80%;
+    }
+}
+
+@media(max-width: 992px) {
+    .page-battery .battery-note__wrap .content {
+        font-size: 1.1em;
     }
 }
 
